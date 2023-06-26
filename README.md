@@ -1,17 +1,17 @@
 # PDRL: Position-Dependent Richardson-Lucy deconvolution
-Code for this paper
+Code for this paper [arXiv](https://arxiv.org/abs/2306.13355)
 
 **Please note that the provided code is not a finished product, and we do not guarantee its functionality or suitability for any specific purpose. Use it at your own risk.**
 
-## Overview
+## Overv-iew
 Position-Dependent Richardson-Lucy (PDRL) deconvolution is an extension of the Richardson-Lucy deconvolution method, specifically designed for images with multiple positional point spread functions (PSFs).
 
 ![001](figures/casA_PDRL.jpg)<br>
-Figure 2. (a) X-ray image in the 0.5\UTF{2013}7.0 keV band of Cas A obtained with Chandra. (a-1, -2, -3) Enlarged images specified by the colored frames in (a). (b) Same as (a), but for the RLsv-deconvolved results. The unit of flux in the images is $\rm{photons~cm^{-2}~s^{-1}}$.
+Figure 2. (a) X-ray image in the 0.5-7.0 keV band of Cas A obtained with Chandra. (a-1, -2, -3) Enlarged images specified by the colored frames in (a). (b) Same as (a), but for the RLsv-deconvolved results. The unit of flux in the images is $\rm{photons~cm^{-2}~s^{-1}}$.
 
 The 35 x 35 pixel spacing of PSFs used in the above PDRL image.
 ![002](figures/PSFs_35bin.jpg)
-Cas A image (Obs. ID = 4636) and the two-dimensional probabil- ities of the PSFs. The integral of each PSF is normalized to be 1. The PSF color scale is a fixed range. The location of the optical axis is indicated with a green cross.
+Cas A image (Obs. ID = 4636) and the two-dimensional probabilities of the PSFs. The integral of each PSF is normalized to be 1. The PSF color scale is a fixed range. The location of the optical axis is indicated with a green cross.
 
 ## Our Environments
 * DISTRIB_ID=Ubuntu
