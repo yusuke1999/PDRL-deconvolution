@@ -1,9 +1,13 @@
 # PDRL: Position-Dependent Richardson-Lucy deconvolution
-Code for this paper [arXiv](https://arxiv.org/abs/2306.13355)
+Code for this paper: [Richardson–Lucy Deconvolution with a Spatially Variant Point-spread Function of Chandra: Supernova Remnant Cassiopeia A as an Example](https://doi.org/10.3847/1538-4357/acd9b3)
+
+Yusuke Sakai , Shinya Yamada , Toshiki Sato, Ryota Hayakawa, Ryota Higurashi , and Nao Kominato
+
+Accepted in APJ (2023).
 
 **Please note that the provided code is not a finished product, and we do not guarantee its functionality or suitability for any specific purpose. Use it at your own risk.**
 
-## Overv-iew
+## Overview
 Position-Dependent Richardson-Lucy (PDRL) deconvolution is an extension of the Richardson-Lucy deconvolution method, specifically designed for images with multiple positional point spread functions (PSFs).
 
 ![001](figures/casA_PDRL.jpg)<br>
@@ -123,3 +127,19 @@ python ../pyscript/PDRL_err.py merged_4636_4637_4639_5319/broad_thresh.img merge
 
 ## Citing
 If you find our code helpful, we would appreciate it if you could cite the following reference as a token of acknowledgment:
+```
+@article{Sakai_2023,
+doi = {10.3847/1538-4357/acd9b3},
+url = {https://dx.doi.org/10.3847/1538-4357/acd9b3},
+year = {2023},
+month = {jul},
+publisher = {The American Astronomical Society},
+volume = {951},
+number = {1},
+pages = {59},
+author = {Yusuke Sakai and Shinya Yamada and Toshiki Sato and Ryota Hayakawa and Ryota Higurashi and Nao Kominato},
+title = {Richardson–Lucy Deconvolution with a Spatially Variant Point-spread Function of Chandra: Supernova Remnant Cassiopeia A as an Example},
+journal = {The Astrophysical Journal},
+}
+```
+
