@@ -1,7 +1,7 @@
 # PDRL: Position-Dependent Richardson-Lucy deconvolution
 Code for this paper: [Richardson–Lucy Deconvolution with a Spatially Variant Point-spread Function of Chandra: Supernova Remnant Cassiopeia A as an Example](https://doi.org/10.3847/1538-4357/acd9b3)
 
-Yusuke Sakai , Shinya Yamada , Toshiki Sato, Ryota Hayakawa, Ryota Higurashi , and Nao Kominato
+Yusuke Sakai, Shinya Yamada, Toshiki Sato, Ryota Hayakawa, Ryota Higurashi, and Nao Kominato
 
 Accepted in APJ (2023).
 
@@ -10,7 +10,8 @@ Accepted in APJ (2023).
 ## Overview
 Position-Dependent Richardson-Lucy (PDRL) deconvolution is an extension of the Richardson-Lucy deconvolution method, specifically designed for images with multiple positional point spread functions (PSFs).
 
-![001](figures/casA_PDRL.jpg)<br>
+![001](figures/casA_PDRL.jpg)
+
 Figure 2. (a) X-ray image in the 0.5-7.0 keV band of Cas A obtained with Chandra. (a-1, -2, -3) Enlarged images specified by the colored frames in (a). (b) Same as (a), but for the RLsv-deconvolved results. The unit of flux in the images is $\rm{photons~cm^{-2}~s^{-1}}$.
 
 The 35 x 35 pixel spacing of PSFs used in the above PDRL image.
