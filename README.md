@@ -10,12 +10,12 @@ Accepted in APJ (2023).
 ## Overview
 Position-Dependent Richardson-Lucy (PDRL) deconvolution is an extension of the Richardson-Lucy deconvolution method, specifically designed for images with multiple positional point spread functions (PSFs).
 
-![001](figures/casA_PDRL.jpg)
+![001](figures/casA_PDRL.jpg?raw=true)
 
 Figure 2. (a) X-ray image in the 0.5-7.0 keV band of Cas A obtained with Chandra. (a-1, -2, -3) Enlarged images specified by the colored frames in (a). (b) Same as (a), but for the RLsv-deconvolved results. The unit of flux in the images is $\rm{photons~cm^{-2}~s^{-1}}$.
 
 The 35 x 35 pixel spacing of PSFs used in the above PDRL image.
-![002](figures/PSFs_35bin.jpg)
+![002](figures/PSFs_35bin.jpg?raw=true)
 Cas A image (Obs. ID = 4636) and the two-dimensional probabilities of the PSFs. The integral of each PSF is normalized to be 1. The PSF color scale is a fixed range. The location of the optical axis is indicated with a green cross.
 
 ## Our Environments
